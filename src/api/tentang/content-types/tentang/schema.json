@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "tentangs",
+  "info": {
+    "singularName": "tentang",
+    "pluralName": "tentangs",
+    "displayName": "tentang"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "judul": {
+      "type": "string"
+    },
+    "deskripsi": {
+      "type": "blocks"
+    },
+    "visi": {
+      "type": "blocks"
+    },
+    "misi": {
+      "type": "blocks"
+    },
+    "gambar_banner": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "tahun_periode": {
+      "type": "string"
+    }
+  }
+}

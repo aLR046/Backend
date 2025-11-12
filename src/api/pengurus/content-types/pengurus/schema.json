@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "penguruses",
+  "info": {
+    "singularName": "pengurus",
+    "pluralName": "penguruses",
+    "displayName": "Pengurus"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama": {
+      "type": "string"
+    },
+    "jabatan": {
+      "type": "enumeration",
+      "enum": [
+        "Ketua",
+        "Wakil Ketua",
+        "Sekretaris",
+        "Bendahara",
+        "Ketua Divisi",
+        "Staff Divisi"
+      ]
+    },
+    "divisi": {
+      "type": "enumeration",
+      "enum": [
+        "Himatika",
+        "Sosmed Himatika",
+        "Student Support Himatika",
+        "Intellogy Himatika"
+      ]
+    },
+    "foto": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "periode": {
+      "type": "string"
+    },
+    "urutan": {
+      "type": "biginteger"
+    }
+  }
+}

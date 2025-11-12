@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "kontaks",
+  "info": {
+    "singularName": "kontak",
+    "pluralName": "kontaks",
+    "displayName": "kontak"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "whatsapp": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "lokasi": {
+      "type": "string"
+    }
+  }
+}
