@@ -558,6 +558,7 @@ export interface ApiPengurusPengurus extends Struct.CollectionTypeSchema {
         'Sekretaris',
         'Bendahara',
         'Ketua Divisi',
+        'Wakil Divisi',
         'Staff Divisi',
       ]
     >;
