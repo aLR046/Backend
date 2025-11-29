@@ -17,6 +17,7 @@
     "jabatan": {
       "type": "enumeration",
       "enum": [
+        "Pembina",
         "Ketua",
         "Wakil Ketua",
         "Sekretaris",

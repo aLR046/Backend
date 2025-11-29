@@ -552,6 +552,7 @@ export interface ApiPengurusPengurus extends Struct.CollectionTypeSchema {
     foto: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     jabatan: Schema.Attribute.Enumeration<
       [
+        'Pembina',
         'Ketua',
         'Wakil Ketua',
         'Sekretaris',
